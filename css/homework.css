@@ -1,0 +1,12 @@
+table {
+    width: 50%;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #D6EEEE;
+}
