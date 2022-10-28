@@ -1,10 +1,10 @@
 table {
     border: 5px solid;
-	border-collapse: true;
+	border-collapse: collapse;
 	width: 100%;
 	
 }
-h2{
+h2 {
 	text-align: center;
 	text-decoration: underline;
 }
@@ -12,17 +12,25 @@ th, td {
   text-align: center;
   padding: 10px;
 }
-
-tr:nth-child(odd) {
+thead{
+	color: blue;
+	display: table-header-group;
+	overflow-y: auto;
+	position: sticky;
+	top: 0px;
+}
+tbody{
+	color: black;
+}
+tbody tr:nth-child(odd) {
   background-color: #D6EEEE;
 }
 
 .icon {
 	width: 25px;
-	length: 25px;
-	justify: right;
+	height: 25px;
+	
 }
 .attribute-type {
 	color: green;
-	text-decoration: underline;
-}
+	}
