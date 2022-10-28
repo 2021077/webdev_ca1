@@ -1,0 +1,24 @@
+table {
+    border: 5px solid;
+	border-collapse: true;
+	width: 100%;
+	
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+}
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #D6EEEE;
+}
+
+.icon {
+	width: 25px;
+	length: 25px;
+	justify: right;
+}
