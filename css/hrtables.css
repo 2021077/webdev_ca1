@@ -22,3 +22,7 @@ tr:nth-child(odd) {
 	length: 25px;
 	justify: right;
 }
+.attribute-type {
+	color: green;
+	text-decoration: underline;
+}
